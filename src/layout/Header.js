@@ -20,7 +20,7 @@ function Header() {
     <Navbar color="info" light expand="md">
     <NavbarBrand>
       <Link to="/" className="text-white">
-        LCO gitfire app
+        Gitfire app
       </Link>
     </NavbarBrand>
     <NavbarText className="text-white">
