@@ -10,7 +10,6 @@ import {
 import axios from "axios";
 import UserCard from "../Components/UserCard";
 import Repos from "../Components/Repos";
-import Re from "../Components/Re";
 import { Navigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { UserContext } from "../Context/UserContext";
