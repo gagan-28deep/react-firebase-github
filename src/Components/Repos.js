@@ -15,7 +15,7 @@ function Repos({repos_url}) {
     <ListGroup>
         {repos.map(repo => (
             <ListGroupItem key={repo.id}>
-                <div className="text-primary">{repo.name}</div>
+                <a target='_blank' href={`https://github.com/${repo.full_name}`} className="text-primary">{repo.name}</a>
                 <div className="text-secondary">{repo.language}</div>
                 <div className="text-info">{repo.description}</div>
             </ListGroupItem>
